@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../styles/color.dart';
 
 class InputField extends StatefulWidget {
   final Function(String) onSubmit;

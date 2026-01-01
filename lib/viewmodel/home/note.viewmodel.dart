@@ -1,5 +1,5 @@
-import '../../data/model/note.dart';
-import '../../data/repository/note_repo.dart';
+import 'package:to_do_app/data/model/note.dart';
+import 'package:to_do_app/data/repository/note_repo.dart';
 
 class NoteViewModel {
   final NoteRepository _repo = NoteRepository();

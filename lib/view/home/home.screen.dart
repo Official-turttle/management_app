@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_app/components/styles/app_theme.dart';
+import 'package:to_do_app/components/ui/addTask.dart';
+import 'package:to_do_app/components/ui/appBar.dart';
 import 'package:to_do_app/view/home/note_editor_screen.dart';
-import '../../components/ui/appBar.dart';
-import '../../components/ui/addTask.dart'; // Your Task Bottom Sheet
-import '../../viewmodel/home/home.viewmodel.dart';
-import '../../viewmodel/home/note.viewmodel.dart';
+import 'package:to_do_app/viewmodel/home/home.viewmodel.dart';
+import 'package:to_do_app/viewmodel/home/note.viewmodel.dart';
 import 'widget/task_list_view.dart';
 import 'widget/note_grid_view.dart';
-// Note: Create this file in lib/view/home/note_editor_screen.dart
-// import 'note_editor_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -50,8 +48,6 @@ class _HomeScreenState extends State<HomeScreen>
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
 
-    print("Rebuilding HomeScreen");
-    print("is dark theme: $isDark");
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: CustomAppBar(

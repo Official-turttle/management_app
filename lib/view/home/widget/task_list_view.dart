@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../../../viewmodel/home/home.viewmodel.dart';
-import '../../home/widget/todo.item.widget.dart';
-import '../../home/widget/home_summary_card.dart';
-import '../../home/widget/home_empty_state.dart';
-import '../../../components/ui/input.dart';
+import 'package:to_do_app/components/ui/input.dart';
+import 'package:to_do_app/view/home/widget/home_empty_state.dart';
+import 'package:to_do_app/view/home/widget/home_summary_card.dart';
+import 'package:to_do_app/view/home/widget/todo.item.widget.dart';
+import 'package:to_do_app/viewmodel/home/home.viewmodel.dart';
 
 class TaskListView extends StatelessWidget {
   final HomeViewModel viewModel;
