@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../components/ui/fade_in_animation.dart';
+import 'package:to_do_app/components/ui/fade_in_animation.dart';
 
 class HomeEmptyState extends StatelessWidget {
   const HomeEmptyState({super.key});

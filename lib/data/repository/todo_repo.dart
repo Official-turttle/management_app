@@ -1,6 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
-import '../model/todo.dart';
+
+import 'package:to_do_app/data/model/todo.dart';
 
 class TodoRepository {
   List<Todo> _todos = [];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../data/model/todo.dart';
+import 'package:to_do_app/data/model/todo.dart';
 
 class AddTaskBottomSheet extends StatefulWidget {
   final Function(String title, String desc, TodoPriority priority) onSave;

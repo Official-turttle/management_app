@@ -1,6 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
-import '../model/note.dart';
+
+import 'package:to_do_app/data/model/note.dart';
 
 class NoteRepository {
   List<Note> _notes = [];
